@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/more.css" />  
+    </head>
+
+    <body>
+        <div class="main-frame">
+            <header>
+                <div class="top-fixed-bar">
+                    <div class="top-fixed-bar_div_left-signal">
+                        <span>No Service</span>
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="top-fixed-bar_div_center-time">
+                        <span>16:32</span>
+                    </div>
+                    <div class="top-fixed-bar_div_right-bat">
+                        <i class="fas fa-signal"></i>
+                        <span>72%</span>
+                        <i class="fas fa-battery-three-quarters"></i>
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                </div>
+    
+                <section>
+                    <div class="title-bar">
+                        <span>더보기</span>
+                        <div>
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-music"></i>
+                            <a href="setting.html">
+                                <i class="fas fa-cog"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </header>
+
+            <main>
+                <section>
+                    <div class="profile-frame">
+                            <div class="profile_main">
+                                <img class="profile--img --big-img-size" src="https://footballk.net/w/images/3/39/%ED%99%8D%EA%B8%B8%EB%8F%99.jpg"/>
+                                <div class="profile--text --big-font-size ">
+                                    <span>홍길동</span>
+                                    <span class="--small-font-size">+82 10-1234-5678</span>
+                                </div>
+                            </div>
+                            <div class="profile_side">
+                                <div class="profile_side--icons">
+                                    <button class="prosile_side-btn-first">
+                                        <span>MY</span>
+                                    </button>
+                                    <button class="prosile_side-btn-second">
+                                        <img src="data:image/png;base64,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" />"
+                                        <div class="more-profile-side_dot">
+                                            <span>N</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+    
+                <section>
+                    <div class="function-frame">
+                        <div class="func-qr">
+                            <i class="fas fa-qrcode fa-2x"></i>
+                            <span>QR Code</span>
+                        </div>
+                        <div class="func-fr">
+                            <i class="far fa-address-book fa-2x"></i>
+                            <span>Add by Contacts</span>
+                        </div>
+                        <div class="func-id">
+                            <i class="fas fa-fingerprint fa-2x"></i>
+                            <span>Add by ID</span>        
+                        </div>
+                        <div class="func-mail">
+                            <i class="fas fa-envelope-open-text fa-2x"></i>
+                            <span>Invite</span> 
+                        </div>
+                    </div>
+                    <div class="function-frame">
+                        <div class="func-qr">
+                            <i class="fas fa-qrcode fa-2x"></i>
+                            <span>QR Code</span>
+                        </div>
+                        <div class="func-fr">
+                            <i class="far fa-address-book fa-2x"></i>
+                            <span>Add by Contacts</span>
+                        </div>
+                        <div class="func-id">
+                            <i class="fas fa-fingerprint fa-2x"></i>
+                            <span>Add by ID</span>        
+                        </div>
+                        <div class="func-mail">
+                            <i class="fas fa-envelope-open-text fa-2x"></i>
+                            <span>Invite</span> 
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="channel-hide-frame">
+                        <span class="--small-font-size">Suggestions</span>
+                    </div>
+                    <div class="function-frame">
+                        <div class="func-qr">
+                            <i class="fas fa-qrcode fa-2x"></i>
+                            <span>QR Code</span>
+                        </div>
+                        <div class="func-fr">
+                            <i class="far fa-address-book fa-2x"></i>
+                            <span>Add by Contacts</span>
+                        </div>
+                        <div class="func-id">
+                            <i class="fas fa-fingerprint fa-2x"></i>
+                            <span>Add by ID</span>        
+                        </div>
+                        <div class="func-mail">
+                            <i class="fas fa-envelope-open-text fa-2x"></i>
+                            <span>Invite</span> 
+                        </div>
+                    </div>
+                        
+                </section>
+
+
+            </main>
+    
+            <div class="bot-fixed-bar">
+                <a class="person" href="friend.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+                <a class="chat" href="chat.html">
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+                <a class="serch" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+                <a class="more" href="more.html">
+                    <i class="fas fa-dot-circle fa-2x"></i>
+                    <div class="fixed-dot"></div>
+                </a>
+            </div>
+            
+        </div>
+        
+    
+    </body>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</html>
+    

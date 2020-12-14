@@ -1,0 +1,16 @@
+@import url('component/top-fixed-bar.css');
+@import url('component/title-bar.css');
+@import url('component/profile-bar.css');
+@import url('component/bot-fixed-bar.css');
+
+
+#adver {
+    height: 90px;
+    width: 100%;
+
+    background-size: auto;
+    border-radius: 15px;
+
+    padding: 5px 0px;
+    margin-bottom: 3px;
+}

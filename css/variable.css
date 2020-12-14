@@ -1,0 +1,12 @@
+:root {
+    --the-height: 800px;
+    --the-width: 380px;
+    --the-fixed-bar-height:80px;
+    --bot-fixed-top: 720px;
+
+    --white: rgb(235, 235, 235);
+    --gray: rgb(113, 113, 113);
+    --bg-black: rgb(6, 6, 6);
+    --bg-gray: rgb(41, 43, 52);
+    --border: .5px solid rgba(113,113,113,.6);
+}

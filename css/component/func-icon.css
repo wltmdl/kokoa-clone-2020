@@ -1,0 +1,21 @@
+
+.function-frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.func-qr , .func-fr , .func-id , .func-mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+.func-qr span , .func-fr span , .func-id span , .func-mail span {
+    text-align: center;
+    width: 80px;
+
+    margin-top: 10px;
+}
+.func-qr span , .func-id span , .func-mail span {
+    margin-top: 17px;
+}

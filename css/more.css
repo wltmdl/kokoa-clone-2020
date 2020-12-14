@@ -1,0 +1,46 @@
+@import url('component/top-fixed-bar.css');
+@import url('component/title-bar.css');
+@import url('component/profile-bar.css');
+@import url('component/bot-fixed-bar.css');
+@import url('component/func-icon.css');
+
+.channel-hide-frame {
+    
+    border-top: var(--border);
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.profile_side--icons {
+    display: flex;
+}
+.prosile_side-btn-second img {
+    height: 25px;
+    width: 25px;
+}
+.prosile_side-btn-first , .prosile_side-btn-second {
+    height: 30px;
+    width: 50px;
+
+    border-radius: 15px;
+    background-color: var(--bg-black);
+    color: var(--white);
+    border: var(--border);
+}
+.prosile_side-btn-second {
+    position: relative;
+
+    margin-left: 10px;
+}
+.more-profile-side_dot {
+    height: 15px;
+    width: 15px;
+
+    position: absolute;
+    top: -7px;
+    left: 37px;
+
+    border-radius: 10px;
+    background-color: rgba(255, 104, 104, 0.8);
+}

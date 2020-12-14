@@ -1,0 +1,99 @@
+@import url('component/top-fixed-bar.css');
+@import url('component/title-bar.css');
+@import url('component/bot-fixed-bar.css');
+@import url('component/func-icon.css');
+
+.channel-hide-frame {
+    
+    border-top: var(--border);
+
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+
+
+
+.recommand-frame {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.--openchat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+.--openchat div {
+    display: flex;
+    align-items: center;
+}
+.--openchat span {
+    margin-right: 5px;
+}
+.openchat-room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: var(--border);
+}
+.openchat-room_info {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding-bottom: 30px;
+}
+.openchat-room_info span{
+    font-weight: 600;
+}
+.openchat-room_info_status , .openchat-room_info_tag {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.openchat-room_info_status img {
+    height: 20px;
+    width: 20px;
+
+    border-radius: 10px;
+}
+.openchat-room_info_status span {
+    margin-left: 7px;
+    font-size: 15px;
+    color: var(--gray);
+}
+.openchat-room_info_status span:last-child {
+    color: plum;
+}
+.openchat-room_side img {
+    height: 110px;
+    width: 110px;
+
+    border-radius: 20px;
+}
+.openchat-room_side {
+    position: relative;
+}
+.openchat-room_side_heart {
+    height: 25px;
+    width: 70px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 15px;
+
+    position: absolute;
+    top: 75px;
+    left: 35px;
+
+    background-color: rgba(0,0,0,0.7);
+}

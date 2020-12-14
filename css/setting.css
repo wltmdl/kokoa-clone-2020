@@ -1,0 +1,68 @@
+@import url('component/top-fixed-bar.css');
+@import url('component/title-bar.css');
+@import url('component/bot-fixed-bar.css');
+
+
+.additional-small-frame {
+    width: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--white);
+    opacity: .8;
+    border-radius: 50px;
+
+    padding: 5px 0px;
+    margin: 5px 0px;
+    margin-left:100px;
+    
+}
+.additional-small-frame span {
+    margin-left: 5px;
+}
+
+.main-frame {
+    background-color: var(--bg-black);
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.first-set_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 0px;
+
+    border-bottom: var(--border);
+}
+.first-set_item_left {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item_left_dot {
+    font-size: 12px;
+    height: 15px;
+    width: 15px;
+
+    text-align: center;
+
+    border-radius: 8px;
+    background-color: rgba(255, 104, 104, 0.8);
+
+    margin-left: 10px;
+}
+
+.--up {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}

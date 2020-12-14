@@ -1,0 +1,29 @@
+@import url('variable.css');
+
+
+.main-frame {
+    position: relative;
+    
+    height: var(--the-height);
+    width: var(--the-width);
+
+    background-color: var(--bg-black);
+
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 0px 23px;
+}
+
+.--big-font-size {
+    font-size: 23px;
+    font-weight: 500px;
+}
+.--middle-font-size {
+    font-size: 18px;
+    font-weight: 300px;
+}
+.--small-font-size {
+    font-size: 13px;
+    color: var(--gray);
+}

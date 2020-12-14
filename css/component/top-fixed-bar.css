@@ -1,0 +1,11 @@
+
+.top-fixed-bar {
+    display: flex;
+    justify-content: center;
+
+    margin: 10px 0px;
+    padding-top: 10px ;
+}
+.top-fixed-bar_div_center-time {
+    margin: 0px 70px;
+}

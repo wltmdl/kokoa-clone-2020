@@ -1,0 +1,37 @@
+@import url('component/top-fixed-bar.css');
+@import url('component/title-bar.css');
+@import url('component/bot-fixed-bar.css');
+
+
+.additional-small-frame {
+    width: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--white);
+    opacity: .8;
+    border-radius: 50px;
+
+    padding: 5px 0px;
+    margin: 5px 0px;
+    margin-left:100px;
+    
+}
+.additional-small-frame span {
+    margin-left: 5px;
+}
+
+.main-frame {
+    background-color: rgb(122, 199, 175);
+    color: var(--bg-black);
+}
+
+a{
+    text-decoration: none;
+    color: var(--bg-black);
+}
+.--backpage {
+    margin: 0px 0px 0px 60px ;
+}

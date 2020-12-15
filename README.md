@@ -1,4 +1,4 @@
 # Kokoa Clone 2020 Update
 
-wow
-test
+https://wltmdl.github.io/kokoa-clone-2020/intro.html
+
